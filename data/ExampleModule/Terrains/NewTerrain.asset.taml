@@ -1,0 +1,6 @@
+<TerrainAsset
+    AssetName="NewTerrain"
+    terrainFile="@assetFile=NewTerrain.ter"
+    genWithNoise="0"
+    resolution="1024"
+    VersionId="1"/>

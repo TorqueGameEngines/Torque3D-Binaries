@@ -1,0 +1,244 @@
+//-------------------------- 8/23/2022 -- 15:00:28 -----
+Processor Init:
+   Processor: 12th Gen Intel(R) Core(TM) i7-12700H
+      MMX detected
+      SSE detected
+      SSE2 detected
+      SSE3 detected
+      SSE3ex detected 
+      SSE4.1 detected
+      SSE4.2 detected
+      AVX detected
+   MultiCore CPU detected [14 cores, 20 logical]
+ 
+Math Init:
+   Installing Standard C extensions
+   Installing Assembly extensions
+   Installing FPU extensions
+   Installing MMX extensions
+   Installing SSE extensions
+ 
+Initializing platform...
+Input Init:
+
+Done
+DebugDrawer Enabled!
+GFX Init:
+   Null device found
+   Direct 3D (version 11.x) device found
+   OpenGL device found
+
+Console trace disabled.
+AssetManager::addModuleDeclaredAssets() - No assets found at location 'core/utility/' with extension 'asset.taml'.
+AssetManager::addModuleDeclaredAssets() - No assets found at location 'core/lighting/' with extension 'asset.taml'.
+AssetManager::addModuleDeclaredAssets() - No assets found at location 'core/sfx/' with extension 'asset.taml'.
+
+--------- Parsing Arguments ---------
+Attempting to create GFX device: NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2 OpenGL []
+Device created, setting adapter and enumerating modes
+Initializing GFXCardProfiler (OpenGL)
+   o Chipset : 'NVIDIA Corporation'
+   o Card    : 'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
+   o Version : '3.3.0 NVIDIA 512.78'
+   o VRAM    : 6144 MB
+   - Scanning card capabilities...
+GFXCardProfiler (OpenGL) - Setting capability 'maxTextureWidth' to 32768.
+GFXCardProfiler (OpenGL) - Setting capability 'maxTextureHeight' to 32768.
+GFXCardProfiler (OpenGL) - Setting capability 'maxTextureSize' to 32768.
+GFXCardProfiler (OpenGL) - Setting capability 'GL_EXT_texture_filter_anisotropic' to 1.
+GFXCardProfiler (OpenGL) - Setting capability 'GL_ARB_buffer_storage' to 1.
+GFXCardProfiler (OpenGL) - Setting capability 'GL_ARB_texture_storage' to 1.
+GFXCardProfiler (OpenGL) - Setting capability 'GL_ARB_copy_image' to 1.
+GFXCardProfiler (OpenGL) - Setting capability 'GL_ARB_vertex_attrib_binding' to 1.
+GFXCardProfiler (OpenGL) - Setting capability 'GL_KHR_debug' to 1.
+GFXCardProfiler (OpenGL) - Setting capability 'GL_EXT_debug_marker' to 0.
+   - Loading card profiles...
+--------------
+Attempting to set resolution to "1600 1024 0 32 165 0"
+Accepted Mode: 
+--Resolution     : 1600 1024
+--Screen Mode    : Windowed
+--Bits Per Pixel : 32
+--Refresh Rate   : 165
+--FXAA Level     : 0
+--------------
+
+sfxStartup...
+SFXSystem::createDevice - failed creating OpenAL device 'OpenAL Soft'
+SFXSystem::createDevice - created OpenAL device 'OpenAL Soft on LG ULTRAGEAR (NVIDIA High Definition Audio)'
+   Provider: OpenAL
+   Device: OpenAL Soft on LG ULTRAGEAR (NVIDIA High Definition Audio)
+   Hardware: No
+   Max Buffers: 16
+ 
+UDP initialized on ipv4 IP:0.0.0.0:62573
+Asset Manager: Encountered asset Id 'ToolsModule:EditorSettingsWindow,EditorGuiGroup' in asset file 'tools/worldEditor/gui/EditorSettingsWindow,EditorGuiGroup.asset.taml' but it conflicts with existing asset Id in asset file 'tools/gui/EditorSettingsWindow,EditorGuiGroup.asset.taml'.
+AssetManager::addModuleDeclaredAssets() - No assets found at location 'core/clientServer/' with extension 'asset.taml'.
+
+--------- Initializing Directory: scripts ---------
+
+--------- Initializing Torque3D: Client Scripts ---------
+
+Initializing Lighting Systems
+RenderParticleMgr::_initShader - failed to locate shader ParticlesShaderData!
+RenderParticleMgr::_initShader - failed to locate shader OffscreenParticleCompositeShaderData!
+--------------
+Attempting to set resolution to "1600 1024 0 32 165 0"
+Accepted Mode: 
+--Resolution     : 1600 1024
+--Screen Mode    : Windowed
+--Bits Per Pixel : 32
+--Refresh Rate   : 165
+--FXAA Level     : 0
+--------------
+GuiControlProfile::protectedSetSoundButtonDown - no SFXTrack 'menuButtonPressed'
+GuiControlProfile::protectedSetSoundButtonOver - no SFXTrack 'menuButtonHover'
+GuiControlProfile::protectedSetSoundButtonDown - no SFXTrack 'menuButtonPressed'
+GuiControlProfile::protectedSetSoundButtonOver - no SFXTrack 'menuButtonHover'
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXDefaultGUIProfile,GFXGuiCursorProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXDefaultGUIProfile,GFXGuiCursorProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXGuiCursorProfile,GFXDefaultGUIProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXGuiCursorProfile,GFXDefaultGUIProfile) 
+MaterialAsset: Unable to find the Material UnderWaterBasicShader
+Asset Manager: > Failed to acquire asset Id 'Core_Rendering:NoMaterial' as loading the asset file failed to return the asset or the correct asset type: 'core/rendering/materials/NoMaterial.asset.taml'.
+ImageAsset::getAssetById - Finding of asset with id Core_Rendering:NoMaterial failed with no fallback asset
+Material(ReflectProbePreviewMat)::_setDiffuseMap(0) - Couldn't load image "Core_Rendering:NoMaterial"
+MaterialAsset: Unable to find the Material UnderWaterShader
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXDefaultGUIProfile,GFXStaticTextureSRGBProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXDefaultGUIProfile,GFXStaticTextureSRGBProfile) 
+MaterialAsset: Unable to find the Material materialEd_previewMaterial
+MaterialAsset: Unable to find the Material WaterBasicShader
+Warning, overwriting material for: NoMaterial
+MaterialAsset: Unable to find the Material materialEd_justAlphaMaterial
+Activating Input...
+Engine initialized...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+ % - Initializing Tools
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXStaticTextureSRGBProfile,GFXGuiCursorProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXStaticTextureSRGBProfile,GFXGuiCursorProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXGuiCursorProfile,GFXDefaultGUIProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXGuiCursorProfile,GFXDefaultGUIProfile) 
+ % - Initializing Tools Base
+ % - Initializing Base Editor
+ % - Initializing World Editor
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXDefaultGUIProfile,GFXGuiCursorProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXDefaultGUIProfile,GFXGuiCursorProfile) 
+ % - Initializing Asset Browser
+TamlXmlParser::parse() - Could not open filename 'tools/assetBrowser/searchCollectionSets.xml' for parse.
+ % - Initializing Sketch Tool
+ - Initializing Datablock Editor
+ % - Initializing Debugger
+ % - Initializing Decal Editor
+ % - Initializing Forest Editor
+ % - Initializing Gui Editor
+ % - Initializing Material Editor
+Set::add: Object "matEd_cubemapEditor" doesn't exist to add to EditorGui
+ % - Initializing Mesh Road Editor
+ % - Initializing Mission Area Editor
+GFXTextureManager::_lookupTexture: Cached texture tools/missionAreaEditor/images/DefaultHandle has different profile flags: (GFXStaticTextureSRGBProfile,GFXDefaultGUIProfile) 
+GFXTextureManager::_lookupTexture: Cached texture tools/missionAreaEditor/images/DefaultHandle has different profile flags: (GFXStaticTextureSRGBProfile,GFXDefaultGUIProfile) 
+ % - Initializing Navigation Editor
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXGuiCursorProfile,GFXDefaultGUIProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXGuiCursorProfile,GFXDefaultGUIProfile) 
+ % - Initializing Particle Editor
+ % - Initializing Physics Tools
+No physics plugin exists.
+ % - Initializing Project Importer
+ % - Initializing River Editor
+ - Initializing Road and Path Editor
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXDefaultGUIProfile,GFXGuiCursorProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXDefaultGUIProfile,GFXGuiCursorProfile) 
+ % - Initializing Shape Editor
+Missing file: tools/Controller/main.tscript!
+Missing file: tools/Events/main.tscript!
+Missing file: tools/Groups/main.tscript!
+Missing file: tools/Inspector/main.tscript!
+Missing file: tools/Fields/main.tscript!
+Missing file: tools/Tracks/main.tscript!
+Missing file: tools/Torque/main.tscript!
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXGuiCursorProfile,GFXDefaultGUIProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXGuiCursorProfile,GFXDefaultGUIProfile) 
+Module Manager: Found module: 'tools/tools.module' but it is in a module group 'tools' which has already been loaded.
+Module Manager: Cannot load group 'tools' as it is already loaded.
+
+--------- Initializing Torque3D: Server Scripts ---------
+Exporting server prefs...
+*** LOADING MISSION: DefaultEditorLevel
+*** Stage 1 load
+Asset Manager: Failed to acquire asset Id 'FPSGameplay:soldier_rigged' as it does not exist.
+*** Stage 2 load
+*** Mission loaded
+Connect request from: IP:0.0.0.0
+Connection established 20267
+CADD: 20268 local
+<<<< saving server datablock cache >>>>
+    <<<< sending CRC to client: 49158782 >>>>
+*** Sending mission load to client: ToolsModule:DefaultEditorLevel
+Time spent in toggleEditor() : 0.182 s
+Mapping string: ServerMessage to index: 0
+Mapping string: MsgConnectionError to index: 1
+onServerMessage: 
+Mapping string: MsgLoadInfo to index: 2
+onServerMessage: 
+Mapping string: MsgLoadInfoDone to index: 3
+onServerMessage: 
+Mapping string: MissionStartPhase1 to index: 4
+*** New Mission: DefaultEditorLevel
+*** Phase 1: Download Datablocks & Targets
+% - PostFX Manager - Executing core/postFX/scripts/default.postfxpreset.tscript
+HDR FORMAT: GFXFormatR16G16B16A16F
+<<<< client cache CRC: 49158782 >>>>
+<<<< comparing CRC codes: s:49158782 c:49158782 >>>>
+<<<< cache CRC codes match, datablocks will be loaded from local cache. >>>>
+Mapping string: MissionStartPhase1Ack_UseCache to index: 0
+<<<< client will load datablocks from a cache >>>>
+    <<<< skipping datablock transmission >>>>
+Mapping string: MissionStartPhase1_LoadCache to index: 5
+Disabling Vertical Sync during datablock cache load to avoid significant slowdown.
+<<<< Loading Datablocks From Cache >>>>
+Restoring Vertical Sync setting.
+<<<< Finished Loading Datablocks From Cache >>>>
+*** Phase 2: Download Ghost Objects
+Mapping string: MissionStartPhase2Ack to index: 1
+[Material::mapMaterial] - Cannot map unnamed Material
+[Material::mapMaterial] - Cannot map unnamed Material
+Mapping string: Prototyping:FloorGray to index: 6
+Mapping string: Core_Rendering:BlankSkyMat to index: 7
+Ghost Always objects received.
+Mapping string: MissionStartPhase3 to index: 8
+Client Replication Startup has Happened!
+*** Phase 3: Mission Lighting
+Mission lighting done
+Mapping string: MissionStartPhase3Ack to index: 2
+Mapping string: MissionStart to index: 9
+*** Initial Control Object
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXDefaultGUIProfile,GFXStaticTextureSRGBProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXDefaultGUIProfile,GFXStaticTextureSRGBProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXStaticTextureSRGBProfile,GFXDefaultGUIProfile) 
+GFXTextureManager::_lookupTexture: Cached texture core/rendering/images/missingTexture has different profile flags: (GFXStaticTextureSRGBProfile,GFXDefaultGUIProfile) 
+Could not create a description for binding: +
+Could not create a description for binding: +
+Time spent in toggleEditor() : 0.817 s
+*** Control Object Changed
+GuiTreeViewCtrl::setItemExpanded: invalid item id!
+GuiTreeViewCtrl::setItemExpanded: invalid item id!
+AssetBrowser::populatePreviewImages() - Previews to generate: 0
+Set::remove: Object "20311" does not exist in set WorldEditorMenubar
+GuiTreeViewCtrl::setItemExpanded: invalid item id!
+GuiTreeViewCtrl::setItemExpanded: invalid item id!
+AssetBrowser::populatePreviewImages() - Previews to generate: 0
+AssetBrowser::populatePreviewImages() - Previews to generate: 0
+[MaterialList::mapMaterials] Unable to find material for texture: warning_material
+AssetBrowser::populatePreviewImages() - Previews to generate: 0
+Mapping string: EditorOrbitCameraSelectChange to index: 3
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Set::remove: Object "20311" does not exist in set WorldEditorMenubar
+*** ENDING MISSION
+Exporting server prefs...
+Exporting client prefs
+Exporting server prefs

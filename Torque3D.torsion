@@ -1,0 +1,36 @@
+<TorsionProject>
+<Name>Torque3D</Name>
+<WorkingDir/>
+<EntryScript>main.tscript</EntryScript>
+<DebugHook>dbgSetParameters( #port#, "#password#", true );</DebugHook>
+<Mods>
+<Folder>core</Folder>
+<Folder>data</Folder>
+<Folder>tools</Folder>
+</Mods>
+<ScannerExts>tscript; gui; taml; module;</ScannerExts>
+<Configs>
+<Config>
+<Name>Release</Name>
+<Executable>Torque3D.exe</Executable>
+<Arguments/>
+<HasExports>true</HasExports>
+<Precompile>true</Precompile>
+<InjectDebugger>true</InjectDebugger>
+<UseSetModPaths>false</UseSetModPaths>
+</Config>
+<Config>
+<Name>Debug</Name>
+<Executable>Torque3D_Debug.exe</Executable>
+<Arguments/>
+<HasExports>true</HasExports>
+<Precompile>true</Precompile>
+<InjectDebugger>true</InjectDebugger>
+<UseSetModPaths>false</UseSetModPaths>
+</Config>
+</Configs>
+<SearchURL/>
+<SearchProduct>Torque3D</SearchProduct>
+<SearchVersion>HEAD</SearchVersion>
+<ExecModifiedScripts>true</ExecModifiedScripts>
+</TorsionProject>
